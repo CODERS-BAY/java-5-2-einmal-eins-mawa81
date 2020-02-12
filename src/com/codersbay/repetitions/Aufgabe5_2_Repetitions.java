@@ -7,7 +7,7 @@ public class Aufgabe5_2_Repetitions {
             System.out.println("times " + i + ":");
             for (int j = 1; j <= 10; j++) {
                 result = j * i;
-                System.out.println(j + "*" + i + "=" + result);
+                System.out.printf("%2d * %2d = %3d\n", j, i, result);
             }
         }
     }
